@@ -1,6 +1,6 @@
 {
   "name": "realtime-echart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "start a local server to show realtime echarts",
   "main": "index.js",
   "scripts": {
