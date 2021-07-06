@@ -37,7 +37,7 @@ getport(function (e, p) {
   var server = app.listen(p, "localhost", function () {
     var host = server.address().address;
     var port = server.address().port;
-    file("/","index.html",(x)=>{
+    file("/","./index.html",(x)=>{
       return x
         .replace("<!!!-WebSocket-Url-!!!>",`ws://${host}:${port}/update`)
         .replace("<!!!-Title-!!!>",config.title)
