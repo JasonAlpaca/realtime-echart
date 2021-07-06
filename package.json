@@ -1,0 +1,21 @@
+{
+  "name": "realtime-echart",
+  "version": "1.0.0",
+  "description": "start a local server to show realtime echarts",
+  "main": "index.js",
+  "scripts": {
+    "test": "node demo"
+  },
+  "keywords": [
+    "echarts"
+  ],
+  "author": "Jason Alpaca",
+  "license": "ISC",
+  "dependencies": {
+    "echarts": "^5.1.2",
+    "express": "^4.17.1",
+    "express-ws": "^5.0.2",
+    "getport": "^0.1.0",
+    "ws": "^7.5.2"
+  }
+}
