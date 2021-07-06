@@ -1,17 +1,14 @@
-
-
-function Constructor(config){
-  let server = require('./serve')
-  server.setConfig(config)
+function Constructor(config) {
+  let server = require("./serve")();
+  server.setConfig(config);
 
   function setOption(option) {
-    server.setOption(option)
+    server.setOption(option);
   }
 
-  return  {
-    setOption
-  }
+  return {
+    setOption,
+  };
 }
 
-
-module.exports = Constructor
+module.exports = Constructor;
