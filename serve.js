@@ -55,6 +55,7 @@ module.exports = function Constructor() {
       Object.assign(config, inputConfig);
     },
     setOption: function (option) {
+      config.option = option
       wsSet.forEach((ws) => {
         ws.send(JSON.stringify(option));
       });

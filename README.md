@@ -8,7 +8,7 @@ let chart = require('realtime-echart')({
   option: {}
 })
 
-chart.setOption() // Automatic rerender
+chart.setOption() // Automatic rerender, you have to transfer full options here.
 ```
 
 See how to config options below:
